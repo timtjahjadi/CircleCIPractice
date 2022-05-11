@@ -13,6 +13,11 @@ jobs:
                 environment:
                     SCAN_DEVICE: "iPhone 8"
                     SCAN_SCHEME: CircleCIPractice
+                    
+            - store_test_results:
+                path: output/scan
+            - store_artifacts:
+                path: output
 
 workflows:
     version: 2
