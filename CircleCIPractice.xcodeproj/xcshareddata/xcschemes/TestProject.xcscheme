@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4DE89A37282B94840076301B"
+               BuildableName = "CircleCIPracticeTests.xctest"
+               BlueprintName = "CircleCIPracticeTests"
+               ReferencedContainer = "container:CircleCIPractice.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4DE89A41282B94840076301B"
+               BuildableName = "CircleCIPracticeUITests.xctest"
+               BlueprintName = "CircleCIPracticeUITests"
+               ReferencedContainer = "container:CircleCIPractice.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
