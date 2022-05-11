@@ -1,13 +1,17 @@
-version: 2.1
-
+version: 2
 jobs:
-  build:
+  build-and-test:
     macos:
-      xcode: 11.0.0
+      xcode: 12.5.1
     steps:
-      - checkout
+      - run:
+          name: Run Build
+          command: fastlane scan
+          environment:
+            SCAN_DEVICE: iPhone 8
+            SCAN_SCHEME: CircleCIPractice
 
 workflows:
   build: 
     jobs:
-      - build
+      - build-and-test
