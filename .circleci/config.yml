@@ -1,1 +1,13 @@
+version: 2.1
 
+jobs:
+  build:
+    macos:
+      xcode: 11.0.0
+    steps:
+      - checkout
+
+workflows:
+  build: 
+    jobs:
+      - build
